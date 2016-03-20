@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		939045AA1C9F4E250039C61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939045A91C9F4E250039C61F /* AppDelegate.swift */; };
+		939045AC1C9F4E250039C61F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939045AB1C9F4E250039C61F /* ViewController.swift */; };
+		939045AF1C9F4E250039C61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939045AD1C9F4E250039C61F /* Main.storyboard */; };
+		939045B11C9F4E250039C61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939045B01C9F4E250039C61F /* Assets.xcassets */; };
+		939045B41C9F4E250039C61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939045B21C9F4E250039C61F /* LaunchScreen.storyboard */; };
+		939045BF1C9F4E250039C61F /* RetoVelocimetroAutomovilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939045BE1C9F4E250039C61F /* RetoVelocimetroAutomovilTests.swift */; };
+		939045CA1C9F4E250039C61F /* RetoVelocimetroAutomovilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939045C91C9F4E250039C61F /* RetoVelocimetroAutomovilUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		939045BB1C9F4E250039C61F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9390459E1C9F4E250039C61F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939045A51C9F4E250039C61F;
+			remoteInfo = RetoVelocimetroAutomovil;
+		};
+		939045C61C9F4E250039C61F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9390459E1C9F4E250039C61F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939045A51C9F4E250039C61F;
+			remoteInfo = RetoVelocimetroAutomovil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		939045A61C9F4E250039C61F /* RetoVelocimetroAutomovil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoVelocimetroAutomovil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		939045A91C9F4E250039C61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		939045AB1C9F4E250039C61F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		939045AE1C9F4E250039C61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		939045B01C9F4E250039C61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		939045B31C9F4E250039C61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		939045B51C9F4E250039C61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939045BA1C9F4E250039C61F /* RetoVelocimetroAutomovilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoVelocimetroAutomovilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		939045BE1C9F4E250039C61F /* RetoVelocimetroAutomovilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoVelocimetroAutomovilTests.swift; sourceTree = "<group>"; };
+		939045C01C9F4E250039C61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939045C51C9F4E250039C61F /* RetoVelocimetroAutomovilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoVelocimetroAutomovilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		939045C91C9F4E250039C61F /* RetoVelocimetroAutomovilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoVelocimetroAutomovilUITests.swift; sourceTree = "<group>"; };
+		939045CB1C9F4E250039C61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939045A31C9F4E250039C61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939045B71C9F4E250039C61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939045C21C9F4E250039C61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9390459D1C9F4E250039C61F = {
+			isa = PBXGroup;
+			children = (
+				939045A81C9F4E250039C61F /* RetoVelocimetroAutomovil */,
+				939045BD1C9F4E250039C61F /* RetoVelocimetroAutomovilTests */,
+				939045C81C9F4E250039C61F /* RetoVelocimetroAutomovilUITests */,
+				939045A71C9F4E250039C61F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		939045A71C9F4E250039C61F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				939045A61C9F4E250039C61F /* RetoVelocimetroAutomovil.app */,
+				939045BA1C9F4E250039C61F /* RetoVelocimetroAutomovilTests.xctest */,
+				939045C51C9F4E250039C61F /* RetoVelocimetroAutomovilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939045A81C9F4E250039C61F /* RetoVelocimetroAutomovil */ = {
+			isa = PBXGroup;
+			children = (
+				939045A91C9F4E250039C61F /* AppDelegate.swift */,
+				939045AB1C9F4E250039C61F /* ViewController.swift */,
+				939045AD1C9F4E250039C61F /* Main.storyboard */,
+				939045B01C9F4E250039C61F /* Assets.xcassets */,
+				939045B21C9F4E250039C61F /* LaunchScreen.storyboard */,
+				939045B51C9F4E250039C61F /* Info.plist */,
+			);
+			path = RetoVelocimetroAutomovil;
+			sourceTree = "<group>";
+		};
+		939045BD1C9F4E250039C61F /* RetoVelocimetroAutomovilTests */ = {
+			isa = PBXGroup;
+			children = (
+				939045BE1C9F4E250039C61F /* RetoVelocimetroAutomovilTests.swift */,
+				939045C01C9F4E250039C61F /* Info.plist */,
+			);
+			path = RetoVelocimetroAutomovilTests;
+			sourceTree = "<group>";
+		};
+		939045C81C9F4E250039C61F /* RetoVelocimetroAutomovilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				939045C91C9F4E250039C61F /* RetoVelocimetroAutomovilUITests.swift */,
+				939045CB1C9F4E250039C61F /* Info.plist */,
+			);
+			path = RetoVelocimetroAutomovilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939045A51C9F4E250039C61F /* RetoVelocimetroAutomovil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939045CE1C9F4E250039C61F /* Build configuration list for PBXNativeTarget "RetoVelocimetroAutomovil" */;
+			buildPhases = (
+				939045A21C9F4E250039C61F /* Sources */,
+				939045A31C9F4E250039C61F /* Frameworks */,
+				939045A41C9F4E250039C61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetoVelocimetroAutomovil;
+			productName = RetoVelocimetroAutomovil;
+			productReference = 939045A61C9F4E250039C61F /* RetoVelocimetroAutomovil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		939045B91C9F4E250039C61F /* RetoVelocimetroAutomovilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939045D11C9F4E250039C61F /* Build configuration list for PBXNativeTarget "RetoVelocimetroAutomovilTests" */;
+			buildPhases = (
+				939045B61C9F4E250039C61F /* Sources */,
+				939045B71C9F4E250039C61F /* Frameworks */,
+				939045B81C9F4E250039C61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939045BC1C9F4E250039C61F /* PBXTargetDependency */,
+			);
+			name = RetoVelocimetroAutomovilTests;
+			productName = RetoVelocimetroAutomovilTests;
+			productReference = 939045BA1C9F4E250039C61F /* RetoVelocimetroAutomovilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		939045C41C9F4E250039C61F /* RetoVelocimetroAutomovilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939045D41C9F4E250039C61F /* Build configuration list for PBXNativeTarget "RetoVelocimetroAutomovilUITests" */;
+			buildPhases = (
+				939045C11C9F4E250039C61F /* Sources */,
+				939045C21C9F4E250039C61F /* Frameworks */,
+				939045C31C9F4E250039C61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939045C71C9F4E250039C61F /* PBXTargetDependency */,
+			);
+			name = RetoVelocimetroAutomovilUITests;
+			productName = RetoVelocimetroAutomovilUITests;
+			productReference = 939045C51C9F4E250039C61F /* RetoVelocimetroAutomovilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9390459E1C9F4E250039C61F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gonzalo Valencia";
+				TargetAttributes = {
+					939045A51C9F4E250039C61F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					939045B91C9F4E250039C61F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 939045A51C9F4E250039C61F;
+					};
+					939045C41C9F4E250039C61F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 939045A51C9F4E250039C61F;
+					};
+				};
+			};
+			buildConfigurationList = 939045A11C9F4E250039C61F /* Build configuration list for PBXProject "RetoVelocimetroAutomovil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9390459D1C9F4E250039C61F;
+			productRefGroup = 939045A71C9F4E250039C61F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939045A51C9F4E250039C61F /* RetoVelocimetroAutomovil */,
+				939045B91C9F4E250039C61F /* RetoVelocimetroAutomovilTests */,
+				939045C41C9F4E250039C61F /* RetoVelocimetroAutomovilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939045A41C9F4E250039C61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939045B41C9F4E250039C61F /* LaunchScreen.storyboard in Resources */,
+				939045B11C9F4E250039C61F /* Assets.xcassets in Resources */,
+				939045AF1C9F4E250039C61F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939045B81C9F4E250039C61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939045C31C9F4E250039C61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939045A21C9F4E250039C61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939045AC1C9F4E250039C61F /* ViewController.swift in Sources */,
+				939045AA1C9F4E250039C61F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939045B61C9F4E250039C61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939045BF1C9F4E250039C61F /* RetoVelocimetroAutomovilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939045C11C9F4E250039C61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939045CA1C9F4E250039C61F /* RetoVelocimetroAutomovilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		939045BC1C9F4E250039C61F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939045A51C9F4E250039C61F /* RetoVelocimetroAutomovil */;
+			targetProxy = 939045BB1C9F4E250039C61F /* PBXContainerItemProxy */;
+		};
+		939045C71C9F4E250039C61F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939045A51C9F4E250039C61F /* RetoVelocimetroAutomovil */;
+			targetProxy = 939045C61C9F4E250039C61F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		939045AD1C9F4E250039C61F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939045AE1C9F4E250039C61F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		939045B21C9F4E250039C61F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939045B31C9F4E250039C61F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		939045CC1C9F4E250039C61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		939045CD1C9F4E250039C61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939045CF1C9F4E250039C61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RetoVelocimetroAutomovil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valenciapps.RetoVelocimetroAutomovil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		939045D01C9F4E250039C61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RetoVelocimetroAutomovil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valenciapps.RetoVelocimetroAutomovil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		939045D21C9F4E250039C61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RetoVelocimetroAutomovilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valenciapps.RetoVelocimetroAutomovilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetoVelocimetroAutomovil.app/RetoVelocimetroAutomovil";
+			};
+			name = Debug;
+		};
+		939045D31C9F4E250039C61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RetoVelocimetroAutomovilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valenciapps.RetoVelocimetroAutomovilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetoVelocimetroAutomovil.app/RetoVelocimetroAutomovil";
+			};
+			name = Release;
+		};
+		939045D51C9F4E250039C61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RetoVelocimetroAutomovilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valenciapps.RetoVelocimetroAutomovilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RetoVelocimetroAutomovil;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		939045D61C9F4E250039C61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RetoVelocimetroAutomovilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = valenciapps.RetoVelocimetroAutomovilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RetoVelocimetroAutomovil;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939045A11C9F4E250039C61F /* Build configuration list for PBXProject "RetoVelocimetroAutomovil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939045CC1C9F4E250039C61F /* Debug */,
+				939045CD1C9F4E250039C61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939045CE1C9F4E250039C61F /* Build configuration list for PBXNativeTarget "RetoVelocimetroAutomovil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939045CF1C9F4E250039C61F /* Debug */,
+				939045D01C9F4E250039C61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		939045D11C9F4E250039C61F /* Build configuration list for PBXNativeTarget "RetoVelocimetroAutomovilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939045D21C9F4E250039C61F /* Debug */,
+				939045D31C9F4E250039C61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		939045D41C9F4E250039C61F /* Build configuration list for PBXNativeTarget "RetoVelocimetroAutomovilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939045D51C9F4E250039C61F /* Debug */,
+				939045D61C9F4E250039C61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9390459E1C9F4E250039C61F /* Project object */;
+}
